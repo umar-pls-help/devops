@@ -1,0 +1,32 @@
+git config --global init.defaultBranch branch_name    *sets the default branch and whenever you create a new git repo, the default branch will be this.
+
+git config --global user.name name_here
+git config --global user.email email_here
+
+
+
+
+git init 				*initialize git repository*
+git add . 				*add files to staging area*
+git commit -m "message" 		*commit with message to local repository*
+git branch branch_name  		*creates new branch*
+git checkout branch_name 		*switch to branch*
+git remote add origin http-url-here 	*add remote repository http url*
+git push origin branch_name 		*pushing files to remote repository*
+git branch				*list branches*
+git branch --delete branch_name		*delete a brach*
+git fetch origin branch_name		*fetch a branch from remote repository*
+git pull 				*pull a remote repository*
+git status 				*checks the status*
+git branch -a				*see all local and remote branches*
+
+
+
+
+
+
+-> To come out of git commit window (vim editor)
+
+Press INSERT (the cursor will be visible, type some message)
+Then press ESCAPE and then type
+:x! then press ENTER
