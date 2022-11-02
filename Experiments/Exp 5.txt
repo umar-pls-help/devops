@@ -1,0 +1,13 @@
+Exp 5 Jenkins Pipeline
+
+1. We have to create 3 projects (freestyle)
+   	proj-compile
+	proj_test
+	proj_package
+
+2. Then install maven from manage plugins section (click install without restart)
+	download apache maven from https://maven.apache.org/download.cgi 
+	download 	apache-maven-3.8.6-bin.zip
+	extract this in local disk C
+	copy the path till C:\apache-maven-3.8.6-bin\apache-maven-3.8.6
+	
